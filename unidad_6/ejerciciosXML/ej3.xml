@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<salon>
+   <vehiculos>
+      <vehiculo cod="IUY123502">
+         <marca>Tesla</marca>
+         <modelo>Model 3</modelo>
+         <precio moneda="EUR">85000</precio>
+      </vehiculo>
+      <vehiculo cod="JAW729905">
+         <marca>BMW</marca>
+         <modelo>i3</modelo>
+         <precio moneda="EUR">39900</precio>
+      </vehiculo>
+      <vehiculo cod="LID123306">
+         <marca>Tesla</marca>
+         <modelo>Model S</modelo>
+         <precio moneda="EUR">11000</precio>
+      </vehiculo>
+      <vehiculo cod="PIO234815">
+         <marca>Audi</marca>
+         <modelo>e-Tron</modelo>
+         <precio moneda="EUR">87000</precio>
+      </vehiculo>
+      <vehiculo cod="LLP637710">
+         <marca>Hyundai</marca>
+         <modelo>Ioniq</modelo>
+         <precio moneda="EUR">33000</precio>
+      </vehiculo>
+      <vehiculo cod="PLD123411">
+         <marca>Hyundai</marca>
+         <modelo>Kona</modelo>
+         <precio moneda="EUR">37000</precio>
+      </vehiculo>
+   </vehiculos>
+   <clientes>
+      <cliente nif="12123123A">
+         <nombre>Goldcar</nombre>
+         <telefono>607234125</telefono>
+      </cliente>
+      <cliente nif="48764739S">
+         <nombre>Europcar</nombre>
+         <telefono>607234125</telefono>
+      </cliente>
+      <cliente nif="09123123G">
+         <nombre>Avis</nombre>
+         <telefono>608822173</telefono>
+      </cliente>
+      <cliente nif="98987987F">
+         <nombre>Hertz</nombre>
+         <telefono>666588045</telefono>
+      </cliente>
+   </clientes>
+   <compras>
+      <cantidad vehiculo="IUY123502" cliente="12123123A" fechacompra="12/01/2020">2</cantidad>
+      <cantidad vehiculo="LID123306" cliente="12123123A" fechacompra="25/12/2019">3</cantidad>
+      <cantidad vehiculo="JAW729905" cliente="48764739S" fechacompra="25/12/2019">1</cantidad>
+      <cantidad vehiculo="IUY123502" cliente="48764739S" fechacompra="05/07/2019">1</cantidad>
+      <cantidad vehiculo="LLP637710" cliente="48764739S" fechacompra="03/11/2019">1</cantidad>
+      <cantidad vehiculo="LID123306" cliente="09123123G" fechacompra="30/04/2020">12</cantidad>
+      <cantidad vehiculo="LID123306" cliente="98987987F" fechacompra="20/04/2020">1</cantidad>
+      <cantidad vehiculo="IUY123502" cliente="98987987F" fechacompra="21/04/2020">3</cantidad>
+      <cantidad vehiculo="LLP637710" cliente="98987987F" fechacompra="22/04/2020">5</cantidad>
+   </compras>
+   <gestores>
+      <gestor cod="B">
+         <nombre>Juan</nombre>
+         <direccion>Plaza Mayor, 1</direccion>
+         <localidad>Jaén</localidad>
+         <provincia>Jaén</provincia>
+         <salario unidad="Euros">1800</salario>
+      </gestor>
+      <gestor cod="D">
+         <nombre>Pepe</nombre>
+         <direccion>Calle Nápoles, 1</direccion>
+         <localidad>Úbeda</localidad>
+         <provincia>Jaén</provincia>
+         <salario unidad="Euros">1100</salario>
+      </gestor>
+      <gestor cod="B">
+         <nombre>Luisa</nombre>
+         <direccion>Calle Cerezo, 24</direccion>
+         <localidad>Martos</localidad>
+         <provincia>Jaén</provincia>
+         <salario unidad="Euros">1350</salario>
+      </gestor>
+      <gestor cod="A">
+         <nombre>Pedro</nombre>
+         <direccion>Calle Alerce, 2</direccion>
+         <localidad>Bailén</localidad>
+         <provincia>Jaén</provincia>
+         <salario unidad="Euros">1050</salario>
+      </gestor>
+      <gestor cod="A">
+         <nombre>Lorenzo</nombre>
+         <direccion>Calle Alerce, 2</direccion>
+         <localidad>Bailén</localidad>
+         <provincia>Jaén</provincia>
+         <salario unidad="Euros">900</salario>
+      </gestor>
+      <gestor cod="A">
+         <nombre>Andrés</nombre>
+         <direccion>Calle Giralda, s/n</direccion>
+         <localidad>Sevilla</localidad>
+         <provincia>Sevilla</provincia>
+         <salario unidad="Euros">700</salario>
+      </gestor>
+      <gestor cod="C">
+         <nombre>María</nombre>
+         <direccion>Calle Mayor, 3</direccion>
+         <localidad>Alcalá de Guadaira</localidad>
+         <provincia>Sevilla</provincia>
+         <salario unidad="Euros">1600</salario>
+      </gestor>
+   </gestores>
+   <demostraciones>
+      <prueba id="1">
+         <nombre>Race Tour</nombre>
+         <vehiculo>Tesla Model 3 Performance</vehiculo>
+         <precio moneda="EUR">129</precio>
+         <plazas>20</plazas>
+         <fecha>1/1/2020</fecha>
+         <piloto>Jon McNeil</piloto>
+         <circuito>1</circuito>
+      </prueba>
+      <prueba id="2">
+         <nombre>Rallye Sona</nombre>
+         <vehiculo>Tesla Model S Plaid</vehiculo>
+         <precio moneda="EUR">59</precio>
+         <plazas>15</plazas>
+         <fecha>1/4/2010</fecha>
+         <piloto>Ewan Nolton</piloto>
+         <circuito>2</circuito>
+      </prueba>
+      <prueba id="3">
+         <nombre>Torino Rallye</nombre>
+         <vehiculo>Porsche Taycan</vehiculo>
+         <precio moneda="EUR">99</precio>
+         <plazas>55</plazas>
+         <fecha>1/8/2020</fecha>
+         <piloto>Louis Insane</piloto>
+         <circuito>3</circuito>
+      </prueba>
+      <prueba id="4">
+         <nombre>Torino Exclusive</nombre>
+         <vehiculo>Rimac Concept_One</vehiculo>
+         <precio moneda="EUR">229</precio>
+         <plazas>5</plazas>
+         <fecha>1/1/2020</fecha>
+         <piloto>Louis Insane</piloto>
+         <circuito>3</circuito>
+      </prueba>
+   </demostraciones>
+</salon>

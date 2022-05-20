@@ -1,0 +1,23 @@
+<svg width="212" height="229" xmlns="http://www.w3.org/2000/svg">
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <path transform="rotate(-226 52.598 220.703)" id="svg_35" d="m13.50672,257.37017l0,-73.33333l78.18179,73.33333l-78.18179,0z" stroke="#000000" fill="#84D3DB"/>
+  <path transform="rotate(-46 106.69 165.26)" id="svg_34" d="m69.15566,201.83592l0,-73.15067l75.06849,73.15067l-75.06849,0z" stroke="#000" fill="#5B9BA2"/>
+  <path transform="rotate(134 106.296 164.88)" id="svg_33" d="m68.76165,201.45505l0,-73.15067l75.06849,73.15067l-75.06849,0z" stroke="#000000" fill="#84D3DB"/>
+  <path transform="rotate(-46 159.211 110.479)" id="svg_32" d="m121.67651,147.05463l0,-73.15067l75.06849,73.15067l-75.06849,0z" stroke="#000" fill="#5B9BA2"/>
+  <path transform="rotate(-226 159.972 109.691)" id="svg_31" d="m122.43778,146.26631l0,-73.15067l75.06849,73.15067l-75.06849,0z" stroke="#000000" fill="#84D3DB"/>
+  <path transform="rotate(-46 132.918 32.25)" stroke="#000" id="svg_30" d="m58.14156,68.3695l74.7761,-72.2388l74.7761,72.2388l-149.5522,0z" fill="#5B9BA2"/>
+  <text transform="rotate(-48.7989 174.928 49.2887) matrix(0.798233 0 0 0.609745 53.6831 102.347)" stroke="#000000" filter="url(#svg_20)" xml:space="preserve" text-anchor="start" font-family="'Assistant'" font-size="33" stroke-width="2" id="svg_29" y="-73.05953" x="133.88974" fill="#000000">LM</text>
+  <path transform="rotate(-89.6472 185.38 163.246)" stroke="#000000" id="svg_28" d="m131.73443,188.17309l53.646,-49.85304l53.646,49.85304l-107.29201,0l0.00001,0z" fill="#84D3DB"/>
+  <path transform="rotate(-45.1857 157.851 143.939)" stroke="#000000" id="svg_27" d="m159.18435,143.93946l-13.2011,-14.70402l23.73601,14.70402l-23.73601,14.70401l13.2011,-14.70401z" stroke-width="0" fill="#000000"/>
+  <line id="svg_26" y2="56.36384" x2="159.61228" y1="7.34423" x1="106.9979" stroke="#000000" fill="none"/>
+  <path transform="rotate(-45.1857 105.005 198.817)" stroke="#000000" id="svg_23" d="m106.33882,198.81751l-13.2011,-14.70402l23.73601,14.70402l-23.73601,14.70402l13.2011,-14.70402z" stroke-width="0" fill="#000000"/>
+  <path id="svg_22" d="m158.49931,32.36601l0,-1.49l1.49,1.49l-1.49,0z" stroke-width="0" stroke="#000000" fill="#000000"/>
+  <path transform="rotate(-45 160.275 4.036)" id="svg_21" d="m121.18357,40.7035l0,-73.33332l78.18179,73.33332l-78.18179,0z" stroke="#000000" fill="#84D3DB"/>
+  <defs transform="translate(128.571 8.57143) translate(12.9531 0) translate(0 70.4535)">
+   <filter height="200%" width="200%" y="-50%" x="-50%" id="svg_20">
+    <feGaussianBlur stdDeviation="1.4" in="SourceGraphic"/>
+   </filter>
+  </defs>
+ </g>
+</svg>

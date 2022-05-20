@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="icon" href="/logo.svg" type="image/svg">
+
+    <title>UNIDAD4</title>
+    <style>
+
+      p[name]{
+        background: red;
+      } 
+      p[name="p2"]{
+          background: orange;
+      }
+      p[name~="p"]{
+          background: yellow;
+      }
+      p[name^=h]{
+        background: green;
+      }
+      p[name$=patrimonio]{
+        background: blue;
+      }
+      p[name*=z]{
+        background: purple;
+      }
+    </style>
+</head>
+<body>
+    <ul class="tablaNav">
+        <li class="liNav">
+            <div class="fontList">
+                <a class="textList" target="_blank" href="../../cp/index.html">Córdoba Patrimonio</a>
+            </div>
+        </li>
+        <li id="menuUD1" class="liNav">
+            <div class="fontList">
+                <a class="textList" target="_blank" href="../../unidad_1/unidad1.html">UNIDAD1</a>
+            </div>
+        </li>
+        <li class="liNav">
+            <div class="fontList">
+                <a class="textList" target="_blank" href="../../unidad_2/unidad2.html">UNIDAD2</a>
+            </div>
+        </li>
+        <li class="liNav">
+            <div class="fontList">
+                <a class="textList" target="_blank" href="../..*unidad_3/unidad3.html">UNIDAD3</a>
+            </div>
+        </li>
+        <li id="menuUD2" class="liNav">
+            <div class="fontList">
+                <a class="textList" target="_blank" href="../../unidad_4/unidad4.html">UNIDAD4</a>
+            </div>
+        </li>
+    </ul>
+<div class="mainDiv">
+    <h1>Ejemplos selectores atributos</h1>
+    <p name>p1</p>
+    <p name="p2">p2</p>
+    <p name="p aa">p3</p>
+    <p name="hola">p4</p>
+    <p name="cordoba patrimonio">p5</p>
+    <p name=zzz>p6</p>
+</div>    
+</body>
+</html>

@@ -1,0 +1,52 @@
+.mainDiv{
+
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+table{
+    text-align: center;
+    font-size: 80px;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: 65%;
+
+
+}
+th{
+    border-bottom: 2px solid black;
+}
+
+html,body{
+    background-image: url('https://c.tenor.com/NB_mHy8OLHAAAAAC/litty-mlg.gif');
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+button {
+    text-align: center;
+
+    outline: none;
+    font-size: 50px;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    width: 50%;
+    cursor: url('explosion.png'), auto !important;
+    border: 2px solid black;
+  }
+  
+  
+button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+
+  }

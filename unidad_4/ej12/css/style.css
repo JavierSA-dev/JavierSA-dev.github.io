@@ -1,0 +1,18 @@
+.i{
+    display: block;
+    filter: grayscale(1);
+
+    width: 500px;
+    height: 500px;
+    animation: guitar 2s ease 1s 50 alternate forwards;
+    margin-top: 100px;
+}
+
+@keyframes guitar {
+    40%{
+        transform: rotate(360deg);
+    }
+    50%{
+        transform: translateY(50px);
+    }
+}

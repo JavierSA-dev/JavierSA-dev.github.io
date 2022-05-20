@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ej16.xsd">
+    <persona nombre="Eva" edad="25" pais="Francia" />
+    <persona nombre="Giovanni" edad="26" pais="Italia"/>
+</personas>

@@ -1,0 +1,21 @@
+.ejercicios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 2em;
+    text-align: center;
+}
+.ejercicios > * {
+    display: block;
+    font-size: x-large;
+    padding: 3rem;
+    background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.ejercicios > *:hover {
+    background-color: rgb(79, 152, 177);
+    color: white;
+    cursor: pointer;
+}

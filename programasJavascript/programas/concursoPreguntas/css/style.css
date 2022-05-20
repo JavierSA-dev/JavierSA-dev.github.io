@@ -1,0 +1,141 @@
+
+.padre {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2em;
+    margin-top: 40px;
+}
+    
+.divuno{
+    text-align: center;
+    grid-column: 1 / -1;
+}
+
+div{
+    text-align: center;
+}
+h1 {
+	font-weight: bold;
+  font-size: 50px;
+	text-align: center;
+	text-transform: uppercase;
+    color: #fff;
+	text-shadow:
+		0 0 5px rgba(0,178,255,1),
+		0 0 10px rgba(0,178,255,1),
+		0 0 20px rgba(0,178,255,1),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #0e1538;
+}
+a{
+  position: relative;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  margin: 40px;
+  text-decoration: none;
+  transition: 1s;
+  border-radius: 4px;
+  overflow: hidden;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0004);
+}
+a:hover{
+  background: var(--clr);
+  box-shadow: 0 0 10px var(--clr),
+              0 0 30px var(--clr),
+              0 0 60px var(--clr),
+              0 0 100px var(--clr);
+}
+a:before{
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 400%;
+  background: var(--clr);
+  transition: 1s;
+  animation: animate 2s linear infinite;
+  animation-delay: calc(0.33s * var(--1));
+}
+a:hover:before{
+  width: 120%;
+}
+@keyframes animate{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+a:after{
+  content: '';
+  position: absolute;
+  inset: 4px;
+  background: #0e1538;
+}
+a:hover:after{
+  background: var(--clr);
+}
+a span{
+  position: relative;
+  z-index: 1;
+  font-size: 2em;
+  color: #fff;
+  opacity: 0.5;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  transition: 0.5s;
+}
+a:hover span{
+  opacity: 1;
+}
+
+#mutedButton{
+    position: absolute;
+    border-radius: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    bottom: 30px;
+    left: 40px;
+    background-image: url('../mutedIcon.png');
+}
+#mutedButton:hover{
+    background-color: rgb(51, 49, 49);
+}
+.question{
+
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 30px;
+  text-shadow: 0 0 5px rgb(255 51 0), 0 0 10px rgb(255 0 0), 0 0 20px rgb(0 178 255), 0 0 40px rgb(38 104 127), 0 0 80px rgb(38 104 127), 0 0 90px rgb(38 104 127), 0 0 100px rgb(38 104 127), 0 0 140px rgb(38 104 127), 0 0 180px rgb(38 104 127);
+  margin-top: 60px;
+  margin-bottom: 60px;
+}

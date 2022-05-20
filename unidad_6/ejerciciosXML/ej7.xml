@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personas [
+    <!ELEMENT personas (persona*)>
+    <!ELEMENT agenda (persona)+>
+    <!ELEMENT persona (nombre, tlf ,tw)>
+    <!ATTLIST persona id ID #REQUIRED>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT tw (#PCDATA)>
+    <!ELEMENT tlf (#PCDATA)>
+]>
+<personas>
+
+    <persona id="ricardo">
+
+        <nombre>Ricardo Borriquero</nombre>
+        <tlf>951345679</tlf>
+        <tw>@rica</tw>
+
+    </persona>
+
+    <persona id="eva">
+
+        <nombre>Eva Risto</nombre>
+        <tlf>955837659</tlf>
+        <tw>@evaristo</tw>
+        
+    </persona>
+
+</personas>

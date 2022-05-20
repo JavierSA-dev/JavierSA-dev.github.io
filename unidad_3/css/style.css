@@ -1,0 +1,52 @@
+.divU3{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1em;
+    
+}
+
+.ejClas{
+    display: grid;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 1.5rem;
+    font-size: x-large;
+    justify-content: center;
+    align-items: center;
+}
+
+.ejClas:hover{
+    background-color: lightblue;
+    color: white;
+    border-color: red;
+}
+
+.actClass{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1em;
+
+}
+
+.titleClas{
+    grid-column: 1/5;
+    text-align: center;
+}
+
+.actMoodle{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 1em;
+}
+
+.ejMoodle{
+    grid-column: 1/4;
+    text-align: center;
+}
+
+#lastEJmoodle{
+    grid-column: 2/3;
+    
+}

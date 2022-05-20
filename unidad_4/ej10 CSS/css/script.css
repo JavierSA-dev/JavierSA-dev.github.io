@@ -1,0 +1,25 @@
+.div{
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 20px;
+    color: blue;
+}
+.div:hover{
+    background-color: gray;
+}
+
+#div1{
+    border: 2px solid blue;
+}
+#div2{
+    border: 2px solid green;
+}
+#div3{
+    border-left: 2px solid gray;
+    border-top: 2px solid darkblue;
+    border-right: 2px solid green;
+    border-bottom: 2px solid red;
+}
+#div4{
+    border: 5px dotted yellow;
+}

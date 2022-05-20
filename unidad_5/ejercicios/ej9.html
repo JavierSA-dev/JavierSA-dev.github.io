@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/logo.svg" type="image/svg">
+    <link href="../../css/style.css" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script type="text/javascript" src="js/script.js"></script>
+    <title>UNIDAD 4</title>
+
+    <style>
+
+    .body{
+        display: grid;
+        grid-template-areas:
+        "header header header "
+        "nav article ads"
+        "footer footer footer";
+        grid-template-rows: 50px 1fr 50px;
+        grid-template-columns: 20% 1fr 15%;
+        gap: 5px;
+        height: 100vh;
+        margin: 0;
+    }
+
+    header, footer, article, nav, aside{
+        padding: 15px;
+        background-color: antiquewhite;
+    }
+    #header{
+        grid-area: header;
+    }
+    #nav{
+        grid-area: nav;
+
+    }
+    #article{
+        grid-area: article;
+    }
+    #ads{
+        grid-area: aside;
+    }
+    #footer{
+        grid-area: footer;
+    }
+
+    </style>
+
+</head>
+
+<body>
+    <ul class="tablaNav">
+        <li class="liNav">
+            <div class="fontList">
+                <a class="textList" target="_blank" href="../../../cp/index.html">Córdoba Patrimonio</a>
+            </div>
+        </li>
+        <li id="menuUD1" class="liNav">
+            <div class="fontList">
+                <a class="textList" target="_blank" href="../../../unidad_1/unidad1.html">UNIDAD1</a>
+            </div>
+        </li>
+        <li class="liNav">
+            <div class="fontList">
+                <a class="textList" target="_blank" href="../../../unidad_2/unidad2.html">UNIDAD2</a>
+            </div>
+        </li>
+        <li class="liNav">
+            <div class="fontList">
+                <a class="textList" target="_blank" href="../../../unidad_3/unidad3.html">UNIDAD3</a>
+            </div>
+        </li>
+        <li id="menuUD2" class="liNav">
+            <div class="fontList">
+                <a class="textList" target="_blank" href="../../../unidad_4/unidad4.html">UNIDAD4</a>
+            </div>
+        </li>
+    </ul>
+
+        <div id="mainDiv">
+            <div class="body">
+                <header id="header">Header</header>
+                <article id="article">Article</article>
+                <nav id="nav">Nav</nav>
+                <aside id="aside">Aside</aside>
+                <footer id="footer">Footer</footer>
+            </div>
+        </div>
+
+
+    
+
+</body>
+
+</html>

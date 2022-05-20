@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version ="2.0">
+    <channel>
+        <title>RSS Javier Sánchez</title>
+        <link>https://javiersa-dev.github.io/</link>
+        <description>Pagina web Javier Sánchez</description>
+        <item>
+            <title>Cordoba Patrimonio</title>
+            <link>https://github.com/pmerida08/pmerida08.github.io/blob/main/cp/index.html</link>
+            <description>Ejercicio de Cordoba Patrimonio</description>
+        </item>
+        <item>
+            <title>Ejercicio 2 ejemplo XML</title>
+            <link>https://github.com/JavierSA-dev/JavierSA-dev.github.io/blob/master/unidad_6/ejerciciosXML/ej1.xhtml</link>
+            <description>Ejercicio 2 de ejemplo XML</description>
+        </item>
+        <item>
+            <title>Ejercicio 3 ejemplo XML</title>
+            <link>https://github.com/JavierSA-dev/JavierSA-dev.github.io/blob/master/unidad_6/ejerciciosXML/ej2.xml</link>
+            <description>Ejercicio 3 de ejemplo XML</description>
+        </item>
+        <item>
+            <title>Ejercicio 4 ejemplo XML</title>
+            <link>https://github.com/JavierSA-dev/JavierSA-dev.github.io/blob/master/unidad_6/ejerciciosXML/ej3.xml</link>
+            <description>Ejercicio 4 de ejemplo XML</description>
+        </item>
+        <item>
+            <title>Ejercicio 5 ejemplo XML</title>
+            <link>https://github.com/JavierSA-dev/JavierSA-dev.github.io/blob/master/unidad_6/ejerciciosXML/ej4.xml</link>
+            <description>Ejercicio 5 de ejemplo XML</description>
+        </item>
+        <item>
+            <title>Ejercicio 6 ejemplo XML</title>
+            <link>https://github.com/JavierSA-dev/JavierSA-dev.github.io/blob/master/unidad_6/ejerciciosXML/ej5.xml</link>
+            <description>Ejercicio 6 de ejemplo XML</description>
+        </item>
+        <item>
+            <title>Ejercicio 7 ejemplo XML</title>
+            <link>https://github.com/JavierSA-dev/JavierSA-dev.github.io/blob/master/unidad_6/ejerciciosXML/ej6.xml</link>
+            <description>Ejercicio 7 de ejemplo XML</description>
+        </item>
+        <item>
+            <title>Ejercicio 8 ejemplo XML</title>
+            <link>https://github.com/JavierSA-dev/JavierSA-dev.github.io/blob/master/unidad_6/ejerciciosXML/ej7.xml</link>
+            <description>Ejercicio 8 de ejemplo XML</description>
+        </item>
+        <item>
+            <title>Ejercicio 9 ejemplo XML</title>
+            <link>https://github.com/JavierSA-dev/JavierSA-dev.github.io/blob/master/unidad_6/ejerciciosXML/ej8.xml</link>
+            <description>Ejercicio 9 de ejemplo XML</description>
+        </item>
+    </channel>
+</rss>

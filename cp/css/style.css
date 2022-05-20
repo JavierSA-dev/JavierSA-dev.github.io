@@ -1,0 +1,157 @@
+section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5em;
+    padding: 20px;
+    border: 2px dashed grey;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    margin-bottom: 10px;
+    width: 8;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+article{
+    padding: 50px;
+}
+
+img{
+    border-radius: 20px;
+}
+
+.accordion {
+    /* Border */
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom-color: transparent;
+    border-radius: 4px;
+}
+
+.accordion__item {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.accordion__header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    padding: 16px;
+    text-align: center;
+
+}
+
+.accordion__toggle {
+    margin-right: 12px;
+}
+
+.accordion__title {
+    /* Take remaining width */
+    flex: 1;
+}
+
+.accordion__content {
+    /* For not selected item */
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 16px;
+    font-size: larger;
+    align-self: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.accordion__content--selected {
+    /* For selected item */
+    display: block;
+}
+
+#mezquitaImg{
+    display: inline-block;
+}
+
+.underline {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+  }
+  .underline:after {
+    position: absolute;
+    content: '';
+    bottom: -2px;
+    left: 0px;
+    height: 2px;
+    width: 0%;
+    background-color: rgb(29, 103, 146);
+    animation: underline 2s ease-in-out 2s; 
+    animation-fill-mode: forwards;
+
+  }
+  @keyframes underline {
+    to {
+      width: 100%;
+    }
+  }
+
+.header{
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 0.01fr 1fr;
+}
+.center{
+    text-align: center;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical 
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+
+    
+  }
+  
+

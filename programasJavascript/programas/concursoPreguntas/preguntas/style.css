@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  /* white-space: nowrap; */}
+  body{
+
+    background: #0e1538;
+    color: white;
+  }
+  h1 {
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+    color: #fff;
+	text-shadow:
+		0 0 5px rgba(0,178,255,1),
+		0 0 10px rgba(0,178,255,1),
+		0 0 20px rgba(0,178,255,1),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+    margin-top: 50px;
+}
+
+.points{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    font-size: 20px;
+    background-color: #2f3968;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.contentPoints{
+    display: grid;
+    gap: 1em;
+}
+
+.question{
+	text-align: center;
+	text-transform: uppercase;
+    color: #fff;
+    font-size: 30px;
+	text-shadow:
+		0 0 5px rgb(255, 51, 0),
+		0 0 10px rgb(255, 0, 0),
+		0 0 20px rgba(0,178,255,1),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+.respuestas{
+    justify-content: center;display: grid;
+    background-color: #2f3968;
+    text-align: center;
+    gap: 5em;
+    margin: auto;
+    width: 70%;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2%;
+    border: 2px solid black;
+    font-size: 30px;
+
+white-space: nowrap;}
+#mutedButton{
+    position: absolute;
+    border-radius: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    bottom: 30px;
+    left: 40px;
+    background-image: url('../mutedIcon.png');
+}
+#mutedButton:hover{
+    background-color: rgb(51, 49, 49);
+}
+.eachRespuesta{
+    border-bottom: 2px solid black;
+
+}
+.eachRespuesta:hover{
+    background-color: #4a5485;
+    cursor: pointer;
+}
+.rA, .rB{
+    margin-top: 20px;
+
+}
+.rC, .rD{
+    margin-bottom: 20px;
+
+}
+
+.jconfirm{
+    color: black;
+} 

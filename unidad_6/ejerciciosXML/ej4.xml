@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE note SYSTEM "ej4.dtd"[
+
+]>
+<note>
+
+    <to>Mercedes</to>
+    <from>Jose</from>
+    <heading>Recordatorio</heading>
+    <body>No olvidar cumpleaños</body>
+
+</note>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <link rel="icon" href="/logo.svg" type="image/svg">
+    <link href="../../css/style.css" rel="stylesheet" type="text/css">
+    <title>UNIDAD 3</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+
+  <ul class="tablaNav">
+    <li class="liNav">
+        <div class="fontList">
+            <a class="textList" target="_blank" href="../../cp/index.html">Córdoba Patrimonio</a>
+        </div>
+    </li>
+    <li id="menuUD1" class="liNav">
+        <div class="fontList">
+            <a class="textList" target="_blank" href="../../unidad_1/unidad1.html">UNIDAD1</a>
+        </div>
+    </li>
+    <li class="liNav">
+        <div class="fontList">
+            <a class="textList" target="_blank" href="../../unidad_2/unidad2.html">UNIDAD2</a>
+        </div>
+    </li>
+    <li class="liNav">
+        <div class="fontList">
+            <a class="textList" target="_blank" href="../../unidad_3/unidad3.html">UNIDAD3</a>
+        </div>
+    </li>
+    <li id="menuUD2" class="liNav">
+        <div class="fontList">
+            <a class="textList" target="_blank" href="../../unidad_4/unidad4.html">UNIDAD4</a>
+        </div>
+    </li>
+</ul>
+
+  <div class="mainDiv">
+
+    <h1><u>Ejemplo Formularios</u></h1>
+    <h2>Ejercicio1</h2>
+    <form action="mailto:javilondo56@gmail.com" method="post" name="formulario1">
+      <label>Nombre:
+        <input type="text" name="nombre" placeholder="Introduce tu nombre" maxlength="10" required/><br><br>
+      </label>
+      <label> Apellidos:
+        <input type="text" name="apellido" placeholder="Introduce tu apellido" maxlength="10" required/><br><br>
+      </label>
+      <label> Fecha nacimiento:
+        <input type="date" name="nacimiento" required/><br><br>
+      </label>
+      <label> Nº Horas jugando:
+        <input type="number" name="nhoras" min="0" title="Horas diarias videojuegos" required/><br><br>
+      </label>
+      <label> Email:
+        <input type="email" name="correo" placeholder="example@gmail.com" required/><br><br>
+      </label>
+      <label>Consolas: <br><br>
+        <input type="checkbox" name="ps4" value="ps4"/> Ps4
+        <input type="checkbox" name="ps3" value="ps3"/> Ps3
+        <input type="checkbox" name="ps2" value="ps2"/> Ps2
+        <input type="checkbox" name="ps1" value="ps1"/> Ps1
+      </label><br><br>
+      <label>Elige juego preferido <br><br>
+        <input type="radio" name="vjp" value="SMB"/> Super Mario Bros
+        <input type="radio" name="vjp" value="LGZ"/> The Legend Of Zelda
+        <input type="radio" name="vjp" value="MNC"/> Minecraft
+        <input type="radio" name="vjp" value="RDR"/> Red Dead Redemption 2
+      </label> <br><br>  
+      <textarea name="Descripcion" cols="30" rows="10" placeholder="Descripción"></textarea> <br><br>
+      
+      <label> Elige grupo
+        <select name="grupos">
+          <option value=" " disabled selected>Selecciona uno</option>
+          <option value="1">1ºDAW</option>
+          <option value="2">2ºDAW</option>
+          <option value="3">1ºASIR</option>
+          <option value="4">2ºASIR</option>
+        </select> <br><br>
+      </label>
+      <input type="submit" name="submit" value="Envíar"></input>
+    </form>
+  </div>
+
+
+</body>
+</html>

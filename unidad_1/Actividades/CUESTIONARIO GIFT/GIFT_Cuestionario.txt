@@ -1,0 +1,9 @@
+﻿::Q1:: Un lenguaje de marcas es un LENGUAJE que incorpora en el contenido un conjunto de funciones o ecuaciones que añaden al documento información adicional {F}
+
+::Q2:: ¿Qué inventó Tim Berners-Lee?{ =HTML# correcto; bien! ~XML # incorrecto ~Word Wide Web # correcto# correcto; bien! }
+
+::Q3:: XML siglas de {=Extensible Markup Language =extensible markup language } es un metalenguaje de marcas.
+
+::Q4:: Clasifica en su grupo correspondiente { =RTF -> orientado a la presentación =LaTeX -> de procedimiento =XML -> descriptivos o semánticos }
+
+::Q5:: HTML es una versión simplificada de {= SGML} ya que sólo se utilizaban las instrucciones absolutamente imprescindibles.

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personas [
+    <!ELEMENT personas (profesor | alumno)>
+    <!ELEMENT alumno (nombre, apellidos, curso, ciudad?)>
+    <!ELEMENT profesor (nombre, asignaturas)>
+    <!ELEMENT asignaturas (asignatura*)>
+    <!ATTLIST asignatura cod CDATA #REQUIRED>
+    <!ELEMENT curso (#PCDATA)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellidos (#PCDATA)>
+    <!ELEMENT ciudad (#PCDATA)>
+    <!ELEMENT asignatura (#PCDATA)>
+]>
+
+<personas>
+
+    <profesor>
+
+        <nombre>
+            Jose
+        </nombre>
+
+        <asignaturas>
+            <asignatura cod="PR">
+                Programación
+            </asignatura>
+
+        </asignaturas>
+
+    </profesor>
+
+    <alumno>
+        <nombre>
+            Pablo
+        </nombre>
+
+        <apellidos>
+            Mérida Velasco
+        </apellidos>
+
+        <curso>
+            1º DAW
+        </curso>
+
+        <ciudad>
+            Córdoba
+        </ciudad>
+
+    </alumno>
+    <alumno>
+        <nombre>
+            Guille
+        </nombre>
+        <apellidos>
+              Serrano
+        </apellidos>
+
+        <curso>
+            1º DAW
+        </curso>
+
+    </alumno>
+
+    <profesor>
+
+        <nombre>
+            Jose
+        </nombre>
+
+        <asignaturas>
+            <asignatura cod="LM">
+                Lenguaje de Marcas
+            </asignatura>
+
+            <asignatura cod="BD">
+                Base de Datos
+            </asignatura>
+        </asignaturas>
+
+    </profesor>
+</personas>

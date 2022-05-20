@@ -1,0 +1,14 @@
+.myClassR{
+    background: repeating-radial-gradient(grey 40%, white 50%);
+    text-align: center;
+    font-size: 2vw;
+    padding: 8vw;
+    border:  solid;
+}
+.myClassL{
+    background: linear-gradient(to bottom, #f09797, transparent);;
+    text-align: center;
+    font-size: 2vw;
+    padding: 8vw;
+    border:  solid;
+}

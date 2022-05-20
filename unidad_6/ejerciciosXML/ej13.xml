@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ej13.xsd">
+
+    <persona>
+        <nombre>Javier</nombre>
+        <edad>19</edad>
+        <pais>España</pais>
+        <pais>España</pais>
+        <telefono hola="si">635635201</telefono>
+        <telefono hola="si">635635201</telefono>
+    </persona>
+
+</personas>

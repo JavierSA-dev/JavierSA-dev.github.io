@@ -1,0 +1,30 @@
+#cajaMargin{
+    padding: 1%;
+    border: 20px solid green;
+    margin: 30%;
+    margin-bottom: 0;
+    margin-top: 2%;
+    background-color: antiquewhite;
+}
+
+#enunciado, #title{
+    margin-left: 30%;
+}
+
+#enunciado{
+    border-left: 2px solid rgb(142, 195, 212);
+    padding-left: 1%;
+}
+
+#title2{
+    margin-top: 5%;
+}
+
+.section1{
+    background-color: #eee;
+    width: 200px;
+    height: 50px;
+    border: 1px dotted black;
+    overflow: hidden;
+    margin-bottom: 2%;
+}

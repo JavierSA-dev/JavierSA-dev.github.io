@@ -1,0 +1,16 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="personas">
+
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="persona" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:attribute name="nombre" type="xs:string" use="required"/>
+                        <xs:attribute name="edad" type="xs:string" />
+                        <xs:attribute name="pais" type="xs:string" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

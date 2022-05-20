@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<horario>
+
+    <table>
+    
+        <columna numero='1'>
+        
+            <horas> 8:15 - 9:15 </horas>
+            <horas> 9:15 - 10:15 </horas>
+            <horas> 10:15 - 11:15 </horas>
+            <recreo> 11:15 - 11:45 </recreo>
+            <horas> 11:45 - 12:45 </horas>
+            <horas> 12:45 - 13:45 </horas>
+            <horas> 13:45 - 14:45 </horas>
+        
+        </columna>
+    
+        <columna numero='2'>
+            <titulo>LUNES</titulo>
+            <horas profesor='(Rafael del Castillo Gomariz)'> PROGR </horas>
+            <horas profesor='(Rafael del Castillo Gomariz)'> PROGR </horas>
+            <horas profesor='(Francisco José Aguilera Ruiz)'> LMSGI </horas>
+            <recreo> Recreo</recreo>
+            <horas profesor='(Francisco José Aguilera Ruiz)'> LMSGI </horas>
+            <horas profesor='(Amelia Pérez Flores)'> BADAT </horas>
+            <horas profesor='(Amelia Pérez Flores)'> BADAT </horas>
+        
+        </columna>
+
+        <columna numero='3'>
+            <titulo>MARTES</titulo>
+            <horas profesor='(Mª Lourdes Magarín Corvillo)'> ENDES </horas>
+            <horas profesor='(Miguel Ángel González Ruz)'> SIINF </horas>
+            <horas profesor='(Miguel Ángel González Ruz)'> SIINF </horas>
+            <recreo> Recreo </recreo>
+            <horas profesor='(Miguel Ángel González Ruz)'> SIINF </horas>
+            <horas profesor='(Rafael del Castillo Gomariz)'> PROGR </horas>
+            <horas profesor='(Rafael del Castillo Gomariz)'> PROGR </horas>
+        
+        </columna>
+
+        <columna numero='4'>
+            <titulo>MIERCOLES</titulo>
+            <horas profesor='(Rafael del Castillo Gomariz)'> PROGR </horas>
+            <horas profesor='(Rafael del Castillo Gomariz)'> PROGR </horas>
+            <horas profesor='(Amelia Pérez Flores)'> BADAT </horas>
+            <recreo> Recreo </recreo>
+            <horas profesor='(Amelia Pérez Flores)'> BADAT </horas>
+            <horas profesor='(Raquel María Castro Córdoba)'> FOL </horas>
+            <horas profesor='(Raquel María Castro Córdoba)'> FOL </horas>
+        
+        </columna>
+
+        <columna numero='5'>
+            <titulo>JUEVES</titulo>
+            <horas profesor='(Mª Lourdes Magarín Corvillo)'> ENDES </horas>
+            <horas profesor='(Mª Lourdes Magarín Corvillo)'> ENDES </horas>
+            <horas profesor='(Miguel Ángel González Ruz)'> SIINF </horas>
+            <recreo> Recreo </recreo>
+            <horas profesor='(Miguel Ángel González Ruz)'> SIINF </horas>
+            <horas profesor='(Miguel Ángel González Ruz)'> SIINF </horas>
+            <horas profesor='(Raquel María Castro Córdoba)'> FOL </horas>
+        
+        </columna>
+
+        <columna numero='6'>
+            <titulo>VIERNES</titulo>
+            <horas profesor='(Amelia Pérez Flores)'> BADAT </horas>
+            <horas profesor='(Amelia Pérez Flores)'> BADAT </horas>
+            <horas profesor='(Francisco José Aguilera Ruiz)'> LMSGI </horas>
+            <recreo> Recreo </recreo>
+            <horas profesor='(Francisco José Aguilera Ruiz)'> LMSGI </horas>
+            <horas profesor='(Rafael del Castillo Gomariz)'> PROGR </horas>
+            <horas profesor='(Rafael del Castillo Gomariz)'> PROGR </horas>
+        
+        </columna>
+        
+    </table>
+
+</horario>

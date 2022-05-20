@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <link rel="icon" href="logo.svg" type="image/svg">
+    <link href="../../css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../../../css/style.css" type="text/css">
+    <abbr title="1º Desarrollo de Apliaciones Web">
+        <title>UNIDAD 3</title>
+    </abbr>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+
+<body>
+    <ul class="tablaNav">
+        <li class="liNav">
+            <div class="fontList">
+                <a class="textList" target="_blank" href="../../../cp/index.html">Córdoba Patrimonio</a>
+            </div>
+        </li>
+        <li id="menuUD1" class="liNav">
+            <div class="fontList">
+                <a class="textList" target="_blank" href="../../../unidad_1/unidad1.html">UNIDAD1</a>
+            </div>
+        </li>
+        <li class="liNav">
+            <div class="fontList">
+                <a class="textList" target="_blank" href="../../../unidad_2/unidad2.html">UNIDAD2</a>
+            </div>
+        </li>
+        <li class="liNav">
+            <div class="fontList">
+                <a class="textList" target="_blank" href="../../../unidad_3/unidad3.html">UNIDAD3</a>
+            </div>
+        </li>
+        <li id="menuUD2" class="liNav">
+            <div class="fontList">
+                <a class="textList" target="_blank" href="../../../unidad_4/unidad4.html">UNIDAD4</a>
+            </div>
+        </li>
+    </ul>
+
+    <div class="mainDiv">
+        <h1>EJ1</h1>
+        <form action="mailto:javilondo56@gmail.com" method="post">
+            <label for="nombre">Nombre: 
+                <input type="text" placeholder="Nombre" name="" id="">
+            </label>
+            <input type="submit" value="Enviar">
+        </form>
+
+        <h1>EJ2</h1>
+        <form action="mailto:javilondo56@gmail.com" method="post">
+            <label for="nombre">Nombre: 
+                <input type="text" placeholder="Nombre" name="" id="" value="Jose" maxlength="40">
+            </label>
+            <input type="submit" value="Enviar">
+        </form>
+
+        <h1>EJ3</h1>
+        <form action="mailto:javilondo56@gmail.com" method="post">
+            <label for="nombre">Nombre: 
+                <input type="text" placeholder="Nombre" name="nombre" id="" value="Jose" maxlength="40" disabled title="Este campo esta desactivado">
+            </label>
+            <input type="submit" value="Enviar">
+        </form>
+
+        <h1>EJ4</h1>
+        <form action="mailto:javilondo56@gmail.com" method="post">
+            <label for="color">Color favorito: <br>
+                <input type="radio" name="color" id=""> Rojo
+            </label>
+            <label for="color"> 
+                <input type="radio" name="color" id=""> Azul
+            </label>
+            <input type="submit" value="Enviar">
+        </form>
+
+        <h1>EJ5</h1>
+        <form action="mailto:javilondo56@gmail.com" method="post">
+            <select name="grupos">
+                <option value="1">Volvo</option>
+                <option value="2">Ford</option>
+                <option value="3">Fiat</option>
+                <option value="4">Audi</option>
+            </select>
+            <input type="submit" value="Enviar">
+        </form>
+
+        <h1>EJ6</h1>
+        <form action="mailto:javilondo56@gmail.com" method="post">
+            <textarea name="Descripcion" cols="30" rows="10" placeholder=""></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+
+        <h1>EJ7</h1>
+            <fieldset>
+                <legend><h3>Currículum</h3></legend>
+                <form>
+                    <label>Nombre:</label>
+                    <input type="text" name="Nombre" placeholder="Juan" maxlength="40" required="">
+                        <br>
+                        <br>
+                    <label>Apellidos:</label>
+                    <input type="text" name="Apellidos" placeholder="Sanchez Aguilar" maxlength="80" required="">
+                        <br>
+                        <br>
+                    <label>Fecha de nacimiento:</label>
+                    <input type="date" name="nacimiento" required=""> 
+                        <br>
+                        <br>
+                        <label for="color">Vehiculo disponible <br>
+                            <input type="radio" name="color" id=""> Coche
+                        </label>
+                        <label for="color"> 
+                            <input type="radio" name="color" id=""> Moto
+                        </label>
+                        <label for="color"> 
+                            <input type="radio" name="color" id=""> Camión
+                        </label>
+                        <label for="color"> 
+                            <input type="radio" name="color" id=""> Ninguno
+                        </label><br><br>
+                    <label>¿Experiencia Laboral?:</label>
+                    <input type="radio" required="" name="carnet" value="si"><label>Sí</label>
+                    <input type="radio" required="" name="carnet" value="no"><label>No</label>
+                        <br>
+                        <br>
+                    <label>Correo electrónico:</label>
+                    <input type="text" required="" value="ejemplocorreo">
+                    <select name="extensioncorreo" required="">
+                        <option>@gmail.com</option>
+                        <option>@hotmail.es</option>
+                        <option>@iesgrancapitan.org</option>
+                        <option>@powerlinedesing.com</option>
+                        <option>Otro</option>
+                    </select>
+                        <br>
+                        <br>
+                    <label>Vida Estudiantil</label>
+                    <textarea name="datosdeinteres"></textarea>
+                        <br>
+                        <br>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Resetear">
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+
+</html>

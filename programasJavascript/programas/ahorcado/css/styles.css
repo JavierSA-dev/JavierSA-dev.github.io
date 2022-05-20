@@ -1,0 +1,69 @@
+.subLetter{
+    border-bottom: 2px solid black;
+    width: fit-content;
+    font-size: 100px;
+
+}
+
+
+.posibleLetter, .correctLetter{
+    border-bottom: 2px solid rgb(0, 0, 0);
+    display: inline-block;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.containerResult{
+    margin-top: 50px;
+    display: grid;
+    gap: 2em;
+}
+
+.bounce {
+    outline: 0;
+    border-color: red;
+    animation-name: bounce;
+    animation-duration: .5s;
+    animation-delay: 0.25s;
+}
+
+@keyframes bounce {
+    0% {
+      transform: translateX(0px);
+      timing-function: ease-in;
+    }
+    37% {
+      transform: translateX(5px);
+      timing-function: ease-out;
+    }
+    55% {
+      transform: translateX(-5px);
+      timing-function: ease-in;
+    }
+    73% {
+      transform: translateX(4px);
+      timing-function: ease-out;
+    }
+    82% {
+      transform: translateX(-4px);
+      timing-function: ease-in;
+    }
+    91% {
+      transform: translateX(2px);
+      timing-function: ease-out;
+    }
+    96% {
+      transform: translateX(-2px);
+      timing-function: ease-in;
+    }
+    100% {
+      transform: translateX(0px);
+      timing-function: ease-in;
+    }
+  }
+
+#imgStick{
+    width: 314px;
+    height: 480px;
+    background-image: url('../media/stick.png');
+}

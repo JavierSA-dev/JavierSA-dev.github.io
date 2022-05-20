@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<poblacion fecha="2022">
+
+    <solicitado>
+        ONG Manos Unidas
+    </solicitado>
+    <descripcion>
+        Informe de...
+    </descripcion>
+    <paises>
+        <pais>
+            <nombre>Francia</nombre>
+            <habitantes>60</habitantes>
+        </pais>
+        <pais>
+            <nombre>Irlanda</nombre>
+            <habitantes>4</habitantes>
+        </pais>
+        <pais>
+            <nombre>Brasil</nombre>
+            <habitantes>180</habitantes>
+        </pais>
+    </paises>
+
+
+</poblacion>

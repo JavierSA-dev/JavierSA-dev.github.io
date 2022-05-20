@@ -1,0 +1,43 @@
+.EjClass{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 2em;
+    text-align: center;
+}
+
+.eachCell{
+    display: block;
+    font-size: x-large;
+    padding: 3rem;
+    background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.eachCell:hover{
+    background-color: rgb(79, 152, 177);
+    color: white;
+    cursor: pointer;
+
+}
+
+#ruleta{
+    display: grid;
+    background-color: lightyellow;
+    grid-column: 1/-1;
+
+}
+#ruleta:hover{
+    background-color: rgb(211, 211, 76);
+}
+
+.title{
+    display: grid;
+    grid-column: 1/-1;
+    align-items: flex-end;
+
+}
+
+#separator{
+    display: block;
+}

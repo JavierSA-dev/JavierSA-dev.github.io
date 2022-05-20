@@ -1,0 +1,13 @@
+.gridMain{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+
+}
+.fontSize{
+    font-size: 50px;
+}
+
+#buttonStop{
+    grid-column: 1 / -1;
+}

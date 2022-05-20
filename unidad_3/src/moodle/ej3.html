@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <link rel="icon" href="logo.svg" type="image/svg">
+    <link href="../../css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../../../css/style.css" type="text/css">
+    <abbr title="1º Desarrollo de Apliaciones Web">
+        <title>1ºDAW</title>
+    </abbr>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+
+<body>
+    <ul class="tablaNav">
+        <li class="liNav">
+            <div class="fontList">
+                <a class="textList" target="_blank" href="../../../cp/index.html">Córdoba Patrimonio</a>
+            </div>
+        </li>
+        <li id="menuUD1" class="liNav">
+            <div class="fontList">
+                <a class="textList" target="_blank" href="../../../unidad_1/unidad1.html">UNIDAD1</a>
+            </div>
+        </li>
+        <li class="liNav">
+            <div class="fontList">
+                <a class="textList" target="_blank" href="../../../unidad_2/unidad2.html">UNIDAD2</a>
+            </div>
+        </li>
+        <li class="liNav">
+            <div class="fontList">
+                <a class="textList" target="_blank" href="../../../unidad_3/unidad3.html">UNIDAD3</a>
+            </div>
+        </li>
+        <li id="menuUD2" class="liNav">
+            <div class="fontList">
+                <a class="textList" target="_blank" href="../../../unidad_4/unidad4.html">UNIDAD4</a>
+            </div>
+        </li>
+    </ul>
+
+    <div class="mainDiv">
+        <h1>Diferencia entre title y alt</h1>
+        Title sirve para cuando pones el raton encima de un texto te salga una descripción de lo que es y alt sirve para cuando no carga una foto, salga ese texto alternativo.
+
+        <h1>Map y Area</h1>
+        Map sirve para definir zonas clicables en una imagen y area para definir donde estan esas zonas.
+
+        <h1>Uso de alt</h1>
+        <img src="" alt="Logo IESGC">
+
+        <h1>Logo con enlace</h1>
+        <a target="_blank" href="https://www.iesgrancapitan.org/"><img width="10%" src="img/IES_Gran_Capitan-_Logo.jpg" title="Logo Gran Capitan" alt="HTML Tutorial"></a>
+
+        <h1>Mapeado de imagen</h1>
+        <img src="img/sistema solar.jpg" usemap="#mapa">
+        <map id="mapa">
+            <area shape="circle" coords="417, 308, 150" href="https://es.wikipedia.org/wiki/Sol" alt="">
+        </map>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+.eachX{
+    font-size: 60px;
+}
+
+.table-bordered td.noBorderTop{
+    border-top: 1px solid transparent;
+}
+
+.table-bordered td.noBorderBottom{
+    border-bottom: 1px solid transparent;
+}
+
+.table-bordered td.noBorderLeft{
+    border-left: 1px solid transparent;
+}
+
+.table-bordered td.noBorderRight{
+    border-right: 1px solid transparent;
+}
+
+
+
+.table-bordered td{
+    border: 2px solid black;
+    border-color: rebeccapurple;
+    cursor: pointer;
+}
+
+#player2{
+    right: 1%;
+    background-color: rgb(235, 140, 140);
+
+
+}
+#player1{
+    left: 1%;
+    background-color: rgb(105, 105, 212);
+
+}
+
+#boxPlayerTurn{
+    left: 35%;
+    width: 600px;
+    background-color: lightyellow;
+}
+
+.text-player{
+    font-size: xx-large;
+}
+
+.box-player{
+    border: 2px black double;
+    border-radius: 20px;
+    width: 300px;
+    height: 200px;
+    position: fixed;
+    display: inline-block;
+    bottom: 1%;
+    text-align: center;
+    line-height: 200px;
+}
+

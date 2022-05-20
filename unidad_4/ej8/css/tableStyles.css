@@ -1,0 +1,80 @@
+table{
+
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+tr, th, td{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.blank{
+    border: 0;
+}
+.dayWeek{
+    background-color: lightblue;
+}
+.dayWeek:hover{
+    background-color: rgb(105, 169, 190);
+    cursor:pointer;
+}
+.time{
+    background-color: cadetblue;
+}
+.time:hover{
+    background-color: rgb(70, 180, 184);
+    cursor:pointer;
+}
+.prog{
+    background-color: rgb(202, 168, 233);
+}
+.prog:hover{
+    background-color: rgb(144, 77, 207);
+    cursor:pointer;
+}
+.bbdd{
+    background-color: aquamarine;
+}
+.bbdd:hover{
+    background-color: rgb(64, 196, 152);
+    cursor:pointer;
+}
+.sinf{
+    background-color: coral;
+}
+.sinf:hover{
+    background-color: rgb(185, 82, 45);
+    cursor:pointer;
+}
+.fol{
+    background-color: rgb(190, 236, 179);
+}
+.fol:hover{
+    background-color: rgb(88, 165, 69);
+    cursor:pointer;
+}
+.ent{
+    background-color: rgb(228, 133, 152);
+}
+.ent:hover{
+    background-color: rgb(167, 55, 78);
+    cursor:pointer;
+}
+.lm{
+    background-color: rgb(208, 226, 176);
+}
+.lm:hover{
+    background-color: rgb(147, 184, 84);
+    cursor:pointer;
+}
+.rec{
+    background-color: rgb(231, 164, 200);
+    text-align: center;
+}
+.rec:hover{
+    background-color: rgb(192, 75, 137);
+    cursor:pointer;
+
+}

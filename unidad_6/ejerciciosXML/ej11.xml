@@ -1,0 +1,8 @@
+<persona
+    xmlns = "http://www.midominio.es/persona"
+    xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.midominio.es/persona ej11.xsd"
+> 
+<nombre>John</nombre>
+<direccion>John</direccion>
+</persona>

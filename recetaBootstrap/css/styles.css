@@ -1,0 +1,63 @@
+#linkMain:hover{
+    background-color: rgb(182, 170, 150);
+}
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+
+#links{
+    color: black;
+    font-style: italic;
+    text-decoration: none;
+}
+
+#linkCard{
+    padding: 10px;
+    text-align: center;
+
+}
+#linkCard:hover{
+    background-color: rgb(236, 228, 213);
+}
+
+#tipicalPlates{
+    background-color: rgb(204, 188, 168);
+}
+footer{
+    background-color: #E7E5DF;
+}
+
+.col-2 li:hover {
+    background-color: rgb(204, 188, 168);
+    border-radius: 5%;
+}
+
+.col-4 p,label{
+    color: #6c757d;
+}
+
+.b-example-divider {
+    width: auto;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%), inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
+}
+
+.border-top {
+    border-top: 1px solid rgba(0, 0, 0, .15) !important;
+}
+
+#copy {
+    font-size: 0.8em;
+}
+
+#previousArrow:hover, #nextArrow:hover{
+    background-color: black;
+    color: antiquewhite;
+    cursor: pointer;
+    border-radius: 30px;
+}

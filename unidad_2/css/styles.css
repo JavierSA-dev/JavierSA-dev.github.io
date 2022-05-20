@@ -1,0 +1,17 @@
+.divU2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2em;
+}
+
+.enlaceU2{
+    display: block;
+}
+
+#a7{
+    grid-column: 3/-1;
+}
+
+.linkactU2{
+    color: black;
+}

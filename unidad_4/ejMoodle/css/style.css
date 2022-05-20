@@ -1,0 +1,382 @@
+#parrafoEj1{
+    background-color: lightgray;
+}
+
+#parrafoEj1_2{
+    border: 20px solid gray;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-right: 80%;
+}
+
+#parrafoEj1_3{
+    border: 1px solid black;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-right: 80%;
+
+
+}
+
+#boxEncabezado{
+    text-align: center;
+}
+
+#linkEj3:hover{
+    text-decoration: none;
+}
+
+#encabezadoEj4{
+    text-transform: uppercase;
+}
+
+.pEj4{
+    text-transform: capitalize;
+}
+
+.box{
+    background-color: lightgray;
+    padding-left: 20px;
+}
+
+#fantasyFont{
+    font-family: fantasy;
+}
+
+#cursiveFont{
+    font-family: cursive;
+}
+
+#monospaceFont{
+    font-family: monospace;
+}
+
+#sans-serifFont{
+    font-family: sans-serif;
+}
+
+#serifFont{
+    font-family: serif;
+}
+
+.verdana{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+.firstLine{
+    color: red;
+}
+
+.firstLetter{
+    color: red;
+    font-size: xx-large;
+}
+
+#titleEJ10{
+    display: inline-block;
+}
+
+#outlineEJ11{
+    font-size: larger;
+    text-decoration: overline green;
+}
+
+.horizontalList>li{
+    display:inline;
+    padding-left:3px;
+    padding-right:3px;
+}
+
+#boxEJ1B3{
+    margin-right: 70%;
+    border: 10px solid rgb(0, 73, 0);
+    background-color: lightyellow;
+    color: rgb(255, 165, 13);
+
+}
+
+#titleboxEJ1B3{
+    font-size: x-large;
+    color: rgb(255, 127, 80);
+}
+
+#linkEJ1B3{
+    color: rgb(255, 127, 80);
+    
+}
+
+#boxEJ1B3_2{
+    padding: 20px;
+    border: 5px solid lightgreen;
+}
+
+.box2{
+    background-color: gold;
+    font-size: 5vw;
+    padding: 10vw;
+    margin: 5vw;
+}
+
+.pEJ4B3{
+    color: orange;
+    padding: 2%;
+    border: 3px solid black;
+    background-color: white;
+    margin-right: 70%;
+
+}
+
+#p1EJ4B3{
+    outline: 3px solid orange;
+}
+
+#p2EJ4B3{
+    outline: 3px solid green;
+}
+
+#p3EJ4B3{
+    outline: 3px dotted yellow;
+}
+
+input{
+    caret-color: orange;
+    color: white;
+    background: black;
+    font-size: 7vw;
+    padding: 3vw;
+}
+
+#boxEJ6B3{
+    background-image: url("../image/backgroundParty.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 80%;
+
+
+}
+
+#boxEJ6B3_2{
+    font-size: x-large;
+    padding: 30px;
+    text-align: center;
+    background-color: rgba(212, 212, 107, 0.7);
+    border: 2px solid black;
+}
+
+.boxB4EJ1{
+    padding: 3%;
+    border: 2px solid black;
+    margin-top: 20px;
+    width: 20%;
+    text-align: center;
+    font-size: x-large;
+}
+
+.conFondo{
+    background-image: url("../image/backgroundParty.jpg");
+}
+
+.fondoEstrella{
+
+    background-image: url("../image/estrellaVerde.jpg");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 20%;
+    
+
+}
+.fondoPlaya{
+    background-image: url("../image/playa.jpg");
+    padding: 10%;
+    display: inline-block;
+    background-size: cover;
+    width: max-content;
+}
+
+.blended{
+    background-color: orange;
+    background-blend-mode: soft-light;
+}
+
+.blender{
+    background-image:url("../image/backgroundParty.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: georgia, serif;
+    font-size: 7vw;
+    text-align: center;
+    border: solid;
+}
+
+.blender{
+    mix-blend-mode: difference;
+    color: yellow;
+}
+.ej1B5{
+    border: 2px solid black;
+    height: 100px;
+    margin: 2%;
+}
+
+.ej2B5, .ej2B5{
+    border: 2px solid green;
+    background-color: transparent;
+}
+.ej2B5_1{
+    background-color: transparent;
+    border: 2px solid green;
+
+}
+
+.ej2B5_1_cab{
+    background-color: transparent;
+    border: 2px solid green;
+    border-collapse: collapse;
+}
+
+
+.ej2B5_cab{
+    border: 2px solid green;
+    background-color: transparent;
+}
+
+.B6EJ1{
+    text-shadow: 1px 1px 10px green;
+    color: white;
+    font-size: 50px;
+}
+
+.B6EJ2{
+    background-color: white;
+    padding: 100px;
+    text-align: center;
+    font-size: x-large;
+    box-shadow: 1px 10px 20px black;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 50px;
+}
+
+.box3{
+    font-size: 5vw;
+    padding: 10vw;
+    border: solid;
+    background: repeating-radial-gradient(circle, yellow 20%, purple 40%);
+}
+
+.bodyB7{
+    background-image: url(../image/descargar.jpg);
+    background-size: 100%;
+    background-size: cover;
+}
+
+.box4{
+    font-size: 5vw;
+    padding: 10vw;
+    border: solid;
+    background: linear-gradient(blue, transparent, purple);
+}
+
+.B8EJ1 > div{
+    color: red;
+    background-color: gold;
+    font-size: 4vw;
+    padding: 2vw;
+    margin: 2vw;
+    border: solid;
+}
+
+.contrast{
+    filter: contrast(100);
+}
+.brightness{
+    filter: brightness(50%);
+}
+.inverted{
+    filter: invert(100%);
+}
+.rotated{
+    filter: hue-rotate(200deg);
+}
+.grayscale{
+    filter: grayscale();
+}
+
+.B9EJ1, .B9EJ2{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 1px solid black;
+
+}
+
+.B9EJ1:hover{
+    transform: translate(100px, 200px);
+
+}
+.B9EJ2:hover{
+    transform: rotate(45deg);
+
+}
+
+.B10EJ1{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+    transition-timing-function: ease-in-out;
+}
+
+.B10EJ1:hover{
+    width: 300px;
+}
+
+.B10EJ2{
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: background 2s, transform 2s;
+}
+.B10EJ2:hover{
+    background: blue;
+    transform: rotate(180deg);
+}
+
+.B11EJ1{
+   width: 100px;
+   height: 100px;
+   position: relative;
+   background-color: red;
+   animation-name: example;
+   animation-duration: 2s;
+   animation-delay: 1s; 
+}
+@keyframes example{
+    0% {background-color: red; left:0px;}
+    50% {background-color: yellow; left:200px;}
+    100% {background-color: red; left:0px;}
+}
+
+.B11EJ2{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes example2{
+    0% {background-color: red; left:0px; top:0px;}
+    25% {background-color: blue; left:0px; top:200px;}
+    50% {background-color: green; left:200px; top:200px;}
+    75% {background-color: yellow; left:200px; top:0px;}
+    100% {background-color: red; left:0px; top:0px;}
+
+}

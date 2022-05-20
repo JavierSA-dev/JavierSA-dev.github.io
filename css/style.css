@@ -1,0 +1,564 @@
+
+ul.tablaNav{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 0.5%;
+    padding-bottom: 3%;
+    border-spacing: 0;
+    
+}
+li.subLi{
+    padding: 3px;
+}
+li.subLi:hover{
+    background-color: #5a7972;
+
+}
+ul.desplegableUl{
+    padding-left: 0;
+}
+div.submenu{
+    list-style: none;
+    float: left;
+    width:100%;
+    padding-left: 0;
+    display: none;
+    
+}
+a.subLink{
+    color: black;
+}
+li#menuUD1:hover #submenu1{
+    display: inline-block;
+}
+li#menuUD2:hover #submenu2{
+    display: inline-block;
+}
+div.submenu ul li{
+    display: inline-block;
+    width: 100%;
+}
+
+a.textList{
+    font-family: 'Lato', sans-serif;
+    font-size: larger;
+    color: black;
+    right: 50%;
+    display: block;
+}
+
+div.fontList{
+    display: block;
+    padding: 4%;
+    font-size: 120%;
+    height: 150%;
+}
+
+li.liNav{
+    background: linear-gradient(to bottom, #97f0dc, transparent);
+    height: 50%;
+    list-style: none;
+    float: left;
+    border-bottom: 2px solid black;
+    width:20%;
+}
+
+li.liNav:hover{
+    background-color: #5a7972;
+    font-style: italic;
+    cursor: pointer;
+
+}
+
+th.thNav:hover, td.thNav:hover{
+    background: linear-gradient(to bottom, #ebf3cd 55%, transparent);
+    cursor: pointer;
+    font-style: oblique;
+}
+
+body{
+    background-image: url("../image/backgroungImage.jpg"); 
+
+    min-height: 90vh;
+    background-size: 100%;
+    background-size: cover;
+}
+
+a{
+
+    text-decoration-line: none;
+}
+
+.ies{
+    font-style: italic;
+    color:rgb(29, 176, 212);
+}
+
+.ies:hover{
+    color: purple;
+}
+
+p.footText{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 130%;
+    display: inline;
+    font-style: oblique;
+
+}
+
+div.footDiv{
+    display: grid;
+    position: fixed;
+    grid-template-columns: 1fr 0.5fr;
+    padding: 10px;
+    bottom: 0.5%;
+    right: 0.5%; 
+    background: linear-gradient(to bottom, rgb(247, 240, 231), transparent); 
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+     
+}
+
+
+
+p.mainParagraph, div.mainParagraph{
+
+    font-family: 'Public Sans', sans-serif;
+    font-size: 125%;
+    border-radius: 10px;
+    border: 2px black solid;
+    padding: 2%;
+    margin: 0;
+}
+    
+
+
+p.mainParagraph:hover{
+    background: linear-gradient(to bottom, #97f0dc, transparent);
+    border-radius: 10px;
+    
+}
+
+h2.titleDiv{
+    
+    position: relative;
+    left: 5%;
+    font-family: 'ABeeZee', sans-serif;
+    font-size:2vw;
+    margin-bottom: 2%;
+    display: inline-block;
+}
+
+
+
+div.divPhoto{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+}
+
+img.logoMain{
+    position: absolute;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+div.tableEjercices{
+    border: 2px;
+    background-color: lightblue;
+}
+
+iframe#cuestionario{
+    background: rgb(226, 239, 243);
+}
+
+div.mainDiv{
+
+display: grid;
+
+background-color: rgb(238, 251, 255, 0.2);
+
+border-radius: 10px;
+
+border-style: outset;
+
+margin-left: 5%;
+
+margin-right: 5%;
+
+margin-top: 5%;
+
+padding: 1%;
+}
+
+
+
+div#mainDivCuestionario{
+    margin-top: 4%;
+
+}
+
+button.downloadButton{
+    background-color:#97f0dc;
+    border: 2px solid black;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+button.downloadButton:hover{
+    background-color: #bbe4db;
+}
+
+button#buttonRandom{
+    margin-left: 8%;
+    margin-top: 6%;
+    width: 800px;
+    height: 150px;
+    font-weight: 600;
+    font-size: 50px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 3px solid #0016b0;
+    display: block;
+
+}
+
+button#buttonRandom:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+    cursor: pointer;
+    
+}
+
+button#buttonRandom:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+div#ganador{
+    border: 3px solid black;
+    border-radius: 6px;
+    display: block;
+    width: 800px;
+    height: 150px;
+    margin-left: 8%;
+    margin-top: 3%;
+    background-color: rgb(144, 115, 172);
+    color: white;
+
+
+}
+
+p#winMessage{
+    display: inline-block;
+    position: relative;
+    margin-top: 5%;
+    font-size: 40px;
+}
+
+img.freezeframe{
+    display: block;
+}
+
+video#tamborVideo{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8%;
+    margin-top: 6%;
+
+}
+
+.topText{
+    vertical-align: middle;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 15px;
+}
+
+
+.divPhoto{
+    justify-self: end;
+}
+
+.divTitleLogo{
+    display: grid;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.mainPhoto{
+    border-radius: 100px;
+    border: solid black;
+}
+.gridParagraph{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+}
+
+@media (max-width: 800px) {
+    .gridParagraph {
+
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+  }
+
+.titleParagraph{
+    font-size: 20px;
+    font-style: italic;
+    padding: 5px;
+    
+}
+
+.titleParagraph:hover{
+    background: linear-gradient(to right, #27c7a4, transparent);
+    
+}
+
+#ve:hover ~ #pve {
+    background: linear-gradient(to bottom, #97f0dc, transparent);
+}
+
+#hb:hover ~ #phb {
+    background: linear-gradient(to bottom, #97f0dc, transparent);
+}
+
+#rs:hover ~ #prs {
+    background: linear-gradient(to bottom, #97f0dc, transparent);
+}
+
+.divU1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+}
+
+
+.divU1>div, .divU2>a{
+    display: grid;
+    border: 3px solid rgb(40, 119, 66);
+    border-radius: 8px;
+    padding: 4rem;
+    font-size: xx-large;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.divU1>div:hover, .divU2>a:hover{
+    cursor: pointer;
+    background-color: lightblue;
+    color: white;
+    border-color: red;
+}
+
+#imgPDF{
+    display: grid;
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.listCode:hover{
+    background-color: #bbe4db;
+}
+
+#tableClasif{
+    background-color: lightblue;
+    padding: 10px;
+}
+
+#tableClasif{
+    width: 80%;
+    
+}
+.contac{
+    color: blue;
+}
+
+a{
+    color: black;
+    font-style: italic;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#houseButton{
+    width: fit-content;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 3px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+#houseButton:hover{
+    background-color: #27c7a4;
+}
+
+.lastDiv{
+    display: grid;
+    grid-column: 2/-1;
+}
+
+
+.lastDiv2{
+    display: grid;
+    grid-column: 1/-1;
+}
+
+.EJ4B5_2{
+    width: 100px;
+    height: 100px;
+    border: 3px solid green;
+}
+.EJ4B5{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    gap: 2em;
+}
+
+.borderCurvo{
+    border-radius: 10px;
+}
+
+.contactDiv{
+    background-color: #5195b8;
+    border-radius: 20px;
+    margin-top: 3%;
+    margin-right: 69%;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 1em;
+}
+
+.headerContact{
+    grid-column: 1/-1;
+    display: grid;
+    justify-content: center;
+    
+}
+
+input, textarea{
+    color: black;
+    border: 0;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+}
+
+input::placeholder, textarea::placeholder{
+    color: black;
+}
+
+#sendEmail{
+    background-color: #9fcfd9;
+    border-bottom: 0;
+    padding: 3%;
+    font-style: italic;
+}
+
+#sendEmail:hover{
+    background-color: #87aeb6;
+    cursor: pointer;
+}
+
+#sendEmail:disabled{
+    background-color: rgba(239, 239, 239, 0.3);
+    color: gba(16, 16, 16, 0.3);
+    border-color:rgba(118, 118, 118, 0.3);
+    cursor: not-allowed;
+}
+
+.borderMasCurvo{
+    border-radius: 20px;
+}
+
+.boderCircular{
+    border-radius: 50px;
+}
+
+.differentBorder{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 10px;
+}
+
+.menuNav{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.elementNav{
+    display: grid;
+    padding: 1vh;
+    background: linear-gradient(to bottom, #97f0dc, transparent);
+    font-size: x-large;
+    border-bottom: 2px solid black;
+    font-style: italic;
+    justify-content: center;
+}
+
+.elementNav:hover{
+    background: #79bbad;
+    cursor: pointer;
+}
+
+#ejerciciosDiv{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1em;
+}
+
+#tablaJuegos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+}
+
+.elementEjercicio{
+    display: grid;
+    font-size: x-large;
+    padding: 3rem;
+    background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.elementEjercicio:hover{
+    background-color: rgb(79, 152, 177);
+    color: white;
+    cursor: pointer;
+
+}
+
+.elementLong{
+    display: grid;
+    grid-column: 1/-1;
+    
+}
+.divTime{
+    text-align: end;
+}

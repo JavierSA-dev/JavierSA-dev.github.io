@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE errores [
+  <!ELEMENT errores (ejercicio+)>
+  <!ELEMENT ejercicio (nombre, error*)>
+  <!ATTLIST ejercicio id ID #REQUIRED>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT error (linea, descripcion)>
+  <!ATTLIST error fecha CDATA "">
+  <!ATTLIST error hora CDATA "">
+  <!ELEMENT linea (#PCDATA)>
+  <!ELEMENT descripcion (#PCDATA)>
+]>
+<errores>
+  <ejercicio id="e1">
+    <nombre>ej6.xml</nombre>
+    <error fecha="14/02/2022" hora="12:15">
+      <linea>2</linea>
+      <descripcion>DOCTYPE no declarado</descripcion>
+    </error>
+
+    <error fecha="14/02/2022" hora="12:15">
+      <linea>3</linea>
+      <descripcion>No hay etiqueta ciudad</descripcion>
+    </error>
+
+
+  </ejercicio>
+
+  <ejercicio id="e2">
+    <nombre>ej156156.xml</nombre>
+    <error fecha="20/02/2022" hora="16:15">
+      <linea>2</linea>
+      <descripcion>DOCTYPE no declarado</descripcion>
+    </error>
+
+    <error fecha="20/02/2022" hora="17:15">
+      <linea>3</linea>
+      <descripcion>No hay etiqueta ciudad</descripcion>
+    </error>
+
+
+  </ejercicio>
+
+  
+
+  <ejercicio id="e3">
+    <nombre>ej7.xml</nombre>
+    <error fecha="14/02/2022" hora="12:41">
+      <linea>8</linea>
+      <descripcion>Falta nodo raiz</descripcion>
+    </error>
+
+
+  </ejercicio>
+
+</errores>

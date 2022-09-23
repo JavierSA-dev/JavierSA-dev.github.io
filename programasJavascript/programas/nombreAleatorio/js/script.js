@@ -35,9 +35,7 @@ async function main(){
     var x = 0;
     while(x < 41){
         x = x + 1
-        var nombres = ["Caballero Ruiz Laura", "Carmona Bascón Antonio", "Cervilla Alcalde Maria", "Cobos Ruiz Iván", "Fernández Ariza Angel", "Fernández España Víctor",
-        "Gómez Ruiz Manuel", "Hidalgo Santaella Luis", "León Fernández Belén María", "Pablo Merida Velasco" ,"Rodríguez Machado Andrés", "Ruz Del Río Enrique",
-        "Pérez Lara Jose Luis", "Postigo Arévalo Javier", "Vicente Peligro Hugo"]
+        var nombres = ["Alejandro Jiménez Leyva","Álvaro García Fuentes","Antonio Julián Bueno Fuentes","Gontzal García Triviño","Hugo Vicente Peligro","Javier Sánchez López","Jose Aguilera Ruiz","José Luis Pérez Lara","José Manuel López Valero","José Miguel Escribano Ruiz","Juan García Toril","María José Cervilla Alcalde","Raúl Pantoja Porras","Virginia Ordoño Bernier"]
     
         var winnerNumber = Math.trunc(Math.random() * ((nombres.length) - 0) + 0);
     
